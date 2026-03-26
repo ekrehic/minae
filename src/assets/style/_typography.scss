@@ -1,0 +1,16 @@
+@use './variables' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Raleway:wght@300;400;500&display=swap');
+
+
+h1, h2, h3 {
+  font-family: 'Cormorant', serif;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: $taupe;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 20px;
+}
