@@ -52,7 +52,7 @@
 .logo-wrap {
   opacity: 0;
   transform: translateY(12px);
-  animation: fadeUp 1.4s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+  animation: fadeUp 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards;
 }
 
 .logo {
@@ -65,20 +65,20 @@
 .slogan {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 4px;
   text-transform: lowercase;
   color: #7A6E68;
   margin-top: 1.4rem;
   opacity: 0;
-  animation: fadeUp 1.4s cubic-bezier(0.16, 1, 0.3, 1) 0.7s forwards;
+  animation: fadeUp 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.6s forwards;
 }
 
 .label {
   position: absolute;
   bottom: 80px;
   opacity: 0;
-  animation: fadeUp 1.4s cubic-bezier(0.16, 1, 0.3, 1) 1.1s forwards;
+  animation: fadeUp 1.5s cubic-bezier(0.16, 1, 0.3, 1) 1.2s forwards;
 }
 
 @keyframes fadeUp {
